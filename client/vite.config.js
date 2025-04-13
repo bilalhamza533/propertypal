@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://mern-estate-c3grczfqbufrb5hk.centralindia-01.azurewebsites.net/',
+        target: 'http://propertypal-gxcwhvegebhrdccb.centralindia-01.azurewebsites.net',
         secure: false,
       },
     },
